@@ -1,0 +1,11 @@
+if __name__ == '__main__':
+    lis = []
+    flis = []
+    for _ in range(int(input())):
+        name = input()
+        score = float(input())
+        tmp = [score, name]
+        lis.append(tmp)
+    
+    lis.sort(reverse=True)
+    lis.pop(len(lis)-1)
