@@ -1,3 +1,5 @@
+##too long to compute
+
 def merge_the_tools(string, k):
     # your code goes here
     sp_st = []
@@ -26,17 +28,17 @@ def merge_the_tools(string, k):
             tmp_lis.append(ltt)
             
 
-        
-        for cek in reversed(tmp_lis) :
+        tmp_lis.reverse()
+        for cek in tmp_lis :
             
             count = tmp_lis.count(cek)
             
             if count > 1 :
                 tmp_lis.remove(cek)
-                   
-        fn_str = ''. join(tmp_lis)
-        fn_lis.append(fn_str)
-    
+        tmp_lis.reverse()           
+        tmp1 = ''. join(tmp_lis)
+        fn_lis.append(tmp1)
+
     for pr in fn_lis:
         print (pr, end = "\n")
 
