@@ -8,3 +8,4 @@
   #strings:
     Capitalize!
     the minion game
+    merge the tools
