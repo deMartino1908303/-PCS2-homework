@@ -3,6 +3,7 @@
 #this are the links of the main sources of the material i use:
   https://www.learnbyexample.org/python/
   https://www.w3schools.com/python/default.asp
+  https://www.python.org/doc/
 #Basic Data Types:
   list comprehensions,
   Finding the percentage,
