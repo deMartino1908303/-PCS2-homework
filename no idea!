@@ -1,0 +1,7 @@
+#this works but not for all no clue why
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+why= list(input())
+s  = set(input().split(" "))
+sa = set(input().split(" "))
+sb = set(input().split(" "))
+print(len(sa & s)-len(sb & s))
