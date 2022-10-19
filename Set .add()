@@ -1,0 +1,9 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+itr = input()
+s  = set()
+for _ in range(int(itr)):
+    tmp = input()
+    if tmp not in s:
+        s.add(tmp)
+        
+print (len (s))
