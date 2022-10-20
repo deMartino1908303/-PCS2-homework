@@ -48,3 +48,11 @@ mod power,
 
 integers come in all sizes,
 
+polar cordinates.
+
+#ITER TOOL:
+
+itertools.product()
+
+itertools.permutations()
+
