@@ -34,7 +34,17 @@
 
 Set .add(),
 
+set.union(),
+
 no idea! (this compile correctly but for sets whit 100000 entries gives wrong answer),
 
 the captain room (this compile correctly but for bigger groups it doesn`t compile in time),
+
+#MATH:
+
+mod divmod,
+
+mod power,
+
+integers come in all sizes,
 
