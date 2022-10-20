@@ -58,3 +58,6 @@ itertools.permutations(),
 
 itertools.combination(),
 
+itertools.combinations_with_replacement().
+
+#COLLECTIONS:
