@@ -10,7 +10,7 @@
   
   https://www.python.org/doc/ ##
   
-#Basic Data Types:
+#BASIC DATA TIPES:
 
   list comprehensions,
   
@@ -20,7 +20,7 @@
   
   lists.
   
-#strings:
+#STRINGS:
 
   Capitalize!,
   
@@ -28,5 +28,13 @@
   
   merge the tools,
   
-  What's Your Name?
+  What's Your Name?.
   
+#SETS:
+
+Set .add(),
+
+no idea! (this compile correctly but for sets whit 100000 entries gives wrong answer),
+
+the captain room (this compile correctly but for bigger groups it doesn`t compile in time),
+
