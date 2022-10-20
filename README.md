@@ -56,7 +56,7 @@ itertools.product(),
 
 itertools.permutations(),
 
-itertools.combination(),
+itertools.combinations(),
 
 itertools.combinations_with_replacement().
 
