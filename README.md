@@ -52,7 +52,9 @@ polar cordinates.
 
 #ITER TOOL:
 
-itertools.product()
+itertools.product(),
 
-itertools.permutations()
+itertools.permutations(),
+
+itertools.combination(),
 
