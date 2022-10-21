@@ -26,7 +26,7 @@
   
   the minion game,
   
-  merge the tools,
+  merge the tools (this compile correctly but for bigger input takes to long to compute),
   
   What's Your Name?.
   
@@ -36,9 +36,9 @@ Set .add(),
 
 set.union(),
 
-no idea! (this compile correctly but for sets whit 100000 entries gives wrong answer),
+no idea! (this compile correctly but for bigger input takes to long to compute),
 
-the captain room (this compile correctly but for bigger groups it doesn`t compile in time),
+the captain room (this compile correctly but for bigger input takes to long to compute),
 
 #MATH:
 
@@ -61,3 +61,7 @@ itertools.combinations(),
 itertools.combinations_with_replacement().
 
 #COLLECTIONS:
+
+collections.Counter()
+
+DefaultDict Tutorial
