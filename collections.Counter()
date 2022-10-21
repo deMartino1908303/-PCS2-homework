@@ -1,0 +1,12 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+wht = input()
+n_sho = input().split()
+n_cus = int(input())
+tot_money = 0
+for x in range (n_cus):
+    request = input().split()
+    if n_sho.count(request[0]) > 0 :
+        n_sho.remove(request[0])
+        tot_money += int(request[1])
+        
+print(tot_money)
