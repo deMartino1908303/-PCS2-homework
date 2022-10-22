@@ -36,7 +36,7 @@ Set .add(),
 
 set.union(),
 
-no idea! (this compile correctly but for bigger input takes to long to compute),
+no idea!,
 
 the captain room (this compile correctly but for bigger input takes to long to compute),
 
