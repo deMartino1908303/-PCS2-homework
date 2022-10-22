@@ -9,7 +9,7 @@ while n_itm > 0 :
     if itm_name in item_dic.keys():
         item_dic[itm_name] = item_dic.get(itm_name) + itm_cost
     else:
-        item_dic.setdefault(" ".join(itm), itm_cost)
+        item_dic.setdefault(itm_name, itm_cost)
     n_itm -=1
 
 for x in item_dic.keys():
