@@ -46,7 +46,7 @@ The Captain's Room (don't sole 1 test case),
 
 mod divmod,
 
-mod power,
+power-mod pow,
 
 integers come in all sizes,
 
