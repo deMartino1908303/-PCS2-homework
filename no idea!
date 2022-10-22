@@ -1,7 +1,12 @@
-#this works but not for all no clue why
 # Enter your code here. Read input from STDIN. Print output to STDOUT
-why= list(input())
-s  = set(input().split(" "))
-sa = set(input().split(" "))
-sb = set(input().split(" "))
-print(len(sa & s)-len(sb & s))
+useless = input()
+obj_list = list(input().split())
+like = list(input().split())
+dislike = list(input().split())
+happy = 0
+for x in obj_list:
+    if x in like:
+        happy+=1
+    elif x in dislike:
+        happy-=1
+print(happy)
