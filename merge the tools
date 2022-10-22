@@ -1,45 +1,14 @@
-##too long to compute
-
 def merge_the_tools(string, k):
     # your code goes here
-    sp_st = []
-    st_tmp = []
-    fn_lis = []
-    x=0
-
-    for i in string :
-
-        st_tmp.append(i)
-
-        if x == (k-1):
-            tmp= ''.join(st_tmp)
-            sp_st.append(tmp)
-            st_tmp = []
-            x=0
-        else :
-            x += 1
-
-    for o in sp_st :
-        
-        tmp_lis = []
-        
-        for ltt in o :
-            
-            tmp_lis.append(ltt)
-            
-
-        tmp_lis.reverse()
-        for cek in tmp_lis :
-            
-            count = tmp_lis.count(cek)
-            
-            if count > 1 :
-                tmp_lis.remove(cek)
-        tmp_lis.reverse()           
-        tmp1 = ''. join(tmp_lis)
-        fn_lis.append(tmp1)
-
-    for pr in fn_lis:
-        print (pr, end = "\n")
-
-if __name__ == '__main__':
+    from collections import OrderedDict
+    from itertools import islice
+    sbstr_num = int(len(string)/k)
+    y = []
+    sbstr_len = k
+    start = 0
+    for _ in range(sbstr_num):
+        y.append(list(islice(string, start,sbstr_len)))
+        start += k
+        sbstr_len += k
+    for x in y:
+        print("".join(list(OrderedDict.fromkeys(x))))
