@@ -1,9 +1,0 @@
-# Enter your code here. Read input from STDIN. Print output to STDOUT
-grp_sz = int(input())
-rm_l  = list(input().split(" "))
-rm_st = set(rm_l)
-
-for x in rm_st:
-    tmp = rm_l.count(x)
-    if tmp == 1:
-        print (x)
