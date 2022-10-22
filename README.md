@@ -65,3 +65,6 @@ itertools.combinations_with_replacement().
 collections.Counter()
 
 DefaultDict Tutorial
+
+collections.Counter()
+
