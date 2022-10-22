@@ -38,7 +38,7 @@ set.union(),
 
 no idea!,
 
-the captain room (don't sole 1 test case),
+The Captain's Room (don't sole 1 test case),
 
 #MATH:
 
