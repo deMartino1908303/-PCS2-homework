@@ -62,10 +62,9 @@ itertools.combinations_with_replacement().
 
 #COLLECTIONS:
 
-collections.Counter()
-
 DefaultDict Tutorial
 
 collections.Counter()
 
 collections.OrderedDict
+
