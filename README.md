@@ -18,6 +18,8 @@
   
   the runner up score,
   
+  nested lists,
+  
   lists.
   
 #STRINGS:
