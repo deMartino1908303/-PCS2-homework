@@ -26,7 +26,7 @@
   
   the minion game,
   
-  merge the tools (this compile correctly but for bigger input takes to long to compute),
+  merge the tools,
   
   What's Your Name?.
   
