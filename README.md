@@ -38,7 +38,7 @@ set.union(),
 
 no idea!,
 
-the captain room (this compile correctly but for bigger input takes to long to compute),
+the captain room (don't sole 1 test case),
 
 #MATH:
 
